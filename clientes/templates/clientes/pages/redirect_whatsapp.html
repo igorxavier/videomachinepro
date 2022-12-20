@@ -1,0 +1,25 @@
+{% extends 'global/frontend.html' %}
+{% load static %}
+
+{% block titulo %}Igor Lemões{% endblock titulo %}
+
+{% block pixel %}
+<!-- Taboola Pixel Code -->
+<script>
+  _tfa.push({notify: 'event', name: 'view_content', id: 1513773});
+</script>
+<!-- End of Taboola Pixel Code -->
+{% endblock pixel %}
+
+{% block conteudo %}
+
+<script>
+  setTimeout('Redirect()', 1000);
+  function Redirect() 
+  {  
+      window.location="https://api.whatsapp.com/send?phone=5551997234827&text=Quero%20saber%20mais%20sobre%20o%20rob%C3%B4%20que%20edita%20v%C3%ADdeos..."; 
+  } 
+</script>
+
+
+{% endblock conteudo %}
