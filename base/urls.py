@@ -27,8 +27,8 @@ handler400 = 'clientes.views.custom_bad_request_view'
 
 urlpatterns = [
     path('', include('clientes.urls')),
-    path("__reload__/", include("django_browser_reload.urls")),
     path('admin/', admin.site.urls),
+    path("__reload__/", include("django_browser_reload.urls")),
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
