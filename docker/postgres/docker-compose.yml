@@ -16,7 +16,7 @@ services:
     restart: unless-stopped
     image: postgres:latest
     #ports:
-    #  - "4040:5432"
+    #  - "5432:5432"
     volumes:
       - pgdata2:/var/lib/postgresql/data
     env_file:

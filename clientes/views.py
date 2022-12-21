@@ -30,8 +30,16 @@ def download_turbo_list(request):
 def video_machine_pro(request):
     return render(request, 'clientes/pages/video_machine_pro.html')
 
+def politicas(request):
+    return render(request, 'clientes/pages/politicas.html')
+
+def termos(request):
+    return render(request, 'clientes/pages/termos.html')
+
 def redirect_whatsapp(request):
     return render(request, 'clientes/pages/redirect_whatsapp.html')
+
+
 
 def kiwify_test_dm(request, mac):
 
